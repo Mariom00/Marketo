@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/fonawsome.all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header id="header" class="d-none d-md-block">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-10 col-lg-6">
+          <div class="header_left">
+            <ul>
+              <li><i class="fa-solid fa-van-shuttle"></i>Free Delivery</li>
+              <li><i class="fa-solid fa-earth-asia"></i>Returns Policy</li>
+              <li>
+                Follow Us
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-6">
+          <div class="header_right">
+            <p><a href="login.html">Login</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header menu -->
+  <nav id="main_menu">
+    <div class="container">
+      <div class="main_menu_row">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        </div>
+        <div class="menu d-none d-lg-block">
+          <ul>
+            <li>
+              <a class="active" href="index.html">Home</a>
+            </li>
+            <li class="dropdown_menu">
+              <a class="active" href="#">Pages
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul>
+                <li><a href="about  us.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li class="dropdown_menu_2">
+                  <a href="product.html">Products
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul>
+                    <li><a href="#">Products Category</a></li>
+                    <li><a href="#">Products Category V2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown_menu">
+              <a class="active" href="shop.html">Shop
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="product details.html">Product Details</a></li>
+              </ul>
+            </li>
+            <li class="dropdown_menu">
+              <a class="active" href="#">Blogs
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="blog single.html">blog single</a></li>
+              </ul>
+            </li>
+            <li class="mega_menu">
+              <a class="active" href="#">Gallery
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <div class="mega_menu_inner">
+                <div class="mega_menu_items">
+                  <h3>Theme Elements</h3>
+                  <p>Pages that every website needs.</p>
+                  <div class="mega_menu_links">
+                    <a href="#">Accessories</a>
+                    <a href="#">Camera</a>
+                    <a href="#">Headphone</a>
+                    <a href="#">Gamepad</a>
+                    <a href="#">Laptop</a>
+                    <a href="#">Mobile</a>
+                  </div>
+                </div>
+                <div class="mega_menu_items">
+                  <h3>Theme Elements</h3>
+                  <p>Pages that every website needs.</p>
+                  <div class="mega_menu_links">
+                    <a href="#">Shop</a>
+                    <a href="#">Product Details</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Product Categoy</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Blog Single</a>
+                  </div>
+                </div>
+                <div class="mega_menu_items">
+                  <h3>Theme Elements</h3>
+                  <p>Pages that every website needs.</p>
+                  <div class="mega_menu_links">
+                    <a href="#">Product Category V2</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">About Us</a>
+                    <a href="#">woocommerce-placeholder</a>
+                  </div>
+                </div>
+                <div class="mega_menu_items">
+                  <h3>Theme Elements</h3>
+                  <p>Pages that every website needs.</p>
+                  <h4>
+                    The Apple Watch, with its inbuilt speaker <br />
+                    and microphone, gives you the freedom <br />
+                    to call your friends directly from your wrist. This
+                    splash-resistant.
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="active" href="#">Doakn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile_menu_icon d-lg-none">
+          <i class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#mobile_menu"
+            aria-controls="offcanvasRight">
+          </i>
+        </div>
+        <div class="header_cart_icon">
+          <a href="wishlist.html">
+            <i class="fa-regular fa-heart"></i>
+            <span>0</span>
+          </a>
+          <a data-bs-toggle="offcanvas" data-bs-target="#cart_scroll" aria-controls="offcanvasRight" href="#"><i
+              class="fa-solid fa-bag-shopping"></i>
+            <span>0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- cart right scrollbar -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="cart_scroll" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body cart_item">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="offcanvas_img">
+            <img width="100" src="images/cart item1.png" alt="" />
+          </div>
+        </div>
+       <div class="col-lg-8">
+        <div class="cart_content">
+          <h3>Camera Drone <br>
+          <span>1 <h3>x $540.00</h3></span></h3>
+          <i class="fas fa-close ms-auto"></i>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="offcanvas_img">
+            <img width="100" src="images/top cat lap2.jpg" alt="" />
+          </div>
+        </div>
+       <div class="col-lg-8">
+        <hr>
+        <div class="cart_content">
+          <h3>Laptop<br>
+          <span>1 <h3>x $340.00</h3></span></h3>
+          <i class="fas fa-close ms-auto"></i>
+        </div>
+       </div>
+      </div>
+      <div class="cart_content">
+        <span class="me-1">Subtotal:</span>
+        <h3>$880.00</h3>
+      </div>
+     <div class="cart_btn">
+      <a href="viewcart.html">View Cart</a>
+      <a href="checkout.html">Checkout</a>
+     </div>
+    </div>
+  </div>
+  <!-- mobile menu -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="mobile_menu" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <a href="#"><img src="images/logo.png" alt="" /></a>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body menu_items">
+      <ul>
+        <li><a href="">home</a></li>
+        <li>
+          <a data-bs-toggle="collapse" href="#page">
+            Pages<i class="fa-solid fa-angle-down"></i>
+          </a>
+          <div class="collapse" id="page">
+            <ul>
+              <li><a href="about  us.html">About us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+            <a data-bs-toggle="collapse" href="#new">Product
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <div class="collapse" id="new">
+              <ul>
+                <li><a href="product.html">Products Category</a></li>
+                <li><a href="#">Products Category V2</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a data-bs-toggle="collapse" href="#shop">Shop
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <div class="collapse" id="shop">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a data-bs-toggle="collapse" href="#blog">Blogs
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <div class="collapse" id="blog">
+            <ul>
+              <li><a href="#">Products Category</a></li>
+              <li><a href="#">Products Category V2</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">Gallery </a>
+        </li>
+        <li>
+          <a href="#">Doakn</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- category menu -->
+  <div id="categories" class="d-none d-md-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="all_category">
+            <div class="category_icons">
+              <i class="fas fa-bars"></i>
+              <p>All Categories</p>
+              <i class="fas fa-angle-down ms-auto"></i>
+            </div>
+            <div class="category_menu">
+              <ul>
+                <li>
+                  <a href="#">Electronics
+                    <i class="fas fa-angle-up"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Men’s Fashion
+                    <i class="fas fa-angle-up"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Women’s Fashion
+                    <i class="fas fa-angle-up"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Office & Security
+                    <i class="fas fa-angle-up"></i>
+                  </a>
+                </li>
+                <li><a href="#">Camera</a></li>
+                <li><a href="#">Drone</a></li>
+                <li><a href="#">Gamepad</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Speaker</a></li>
+                <li><a href="#">All Categories</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="search_category">
+            <form action="">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Find your product" />
+                <select name="" id="">
+                  <option>All Categories</option>
+                  <option>Portable</option>
+                  <option>Watch</option>
+                  <option>Speaker</option>
+                  <option>Projector</option>
+                  <option>Mobile</option>
+                  <option>Light</option>
+                  <option>Laptop</option>
+                  <option>Headphone</option>
+                  <option>Google Glass</option>
+                  <option>Gamepad</option>
+                  <option>Drone</option>
+                  <option>Camera</option>
+                  <option>3d Glass</option>
+                  <option>Uncategorized</option>
+                </select>
+                <button class="btn btn-outline-secondary" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="discount">
+            <h3>black friday</h3>
+            <p>get 45% off!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- breadcrubms -->
+  <div class="container">
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">wishlist</li>
+      </ol>
+    </nav>
+  </div>
+  <!-- wishlist -->
+  <section id="wishlist">
+    <div class="container">
+        <div class="row">
+            <h2>Wishlist</h2>
+            <div class="col-lg-8">
+                <div class="row">
+                  <div class="col-12">
+                    <h2>My wishlist</h2>
+                  <p class="d-block border">my wishlist</p>
+                  <i class="fas fa-close" style="color: #0667D2;"></i>
+                  <i class="fas fa-check" style="color: #0667D2;"></i>
+                  <table class="text-center">
+                      <thead>
+                          <tr>
+                              <th></th>
+                              <th class="td_img"></th>
+                              <th>Product name</th>
+                              <th>Unit price</th>
+                              <th>Stock status</th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td><i class="fas fa-close"></i></td>
+                              <td class="td_img"><img src="images/top cat hd1.png" alt=""></td>
+                              <td>Headphone</td>
+                              <td>$210.00</td>
+                              <td>In Stock</td>
+                              <td>Add to cart</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <h2>Share on:</h2>
+                  <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-pinterest-p"></i></li>
+                    <li><i class="fa-regular fa-message"></i></li>
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                  </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="article border-danger">
+                  <ul>
+                    <h3>Archives</h3>
+                    <li><a href="">May 2018</a></li>
+                    <li><a href="">April 2018</a></li>
+                  </ul>
+                </div>
+                <div class="article border-danger">
+                  <ul>
+                    <h3>Categories</h3>
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">Speaker</a></li>
+                    <li><a href="">Uncategorized</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="footer_logo">
+            <img src="images/footer logo.png" alt="" />
+          </div>
+          <div class="footer_content">
+            <h3>
+              Got Question? Call us <br />
+              24/7
+            </h3>
+            <span>[80] 1017 197</span>
+            <p>
+              17 Princess Road, London, Greater <br />
+              London NW1 8JR, UK
+            </p>
+            <a href="#"><i class="fa-solid fa-location-dot"></i> View On Map</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer_content">
+            <h3>We Using</h3>
+            <span>Safe Payments</span>
+            <div class="payment_img">
+              <img src="images/pay1.png" alt="" />
+              <img src="images/pay2.png" alt="" />
+              <img src="images/pay3.png" alt="" />
+            </div>
+            <h4>Secured by:</h4>
+            <div class="secure_img">
+              <img src="images/sec1.png" alt="" />
+              <img src="images/sec2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <div class="footer_ul">
+            <h2>Our Stores</h2>
+            <ul>
+              <li>New York</li>
+              <li>London SF</li>
+              <li>Cockfosters BP</li>
+              <li>Los Angeles</li>
+              <li>Chicago</li>
+              <li>Las Vegas</li>
+              <li>Albarto</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer_ul">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Term & Conditions</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Products Return</a></li>
+              <li><a href="#">FAQS</a></li>
+            </ul>
+            <div class="back_top">
+              <p>Back To Top</p>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- copyright -->
+ <section id="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7 col-md-6">
+        <div class="copyright_text">
+          <p>© 2021 XpeedStudio All Rights Reserved </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 col-md-6">
+        <div class="copyright_icon">
+          <ul>
+            <li>
+              <i class="fa-brands fa-facebook-f"></i>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter"></i>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-pinterest-p"></i>
+              <a href="#">Pinterest</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+              <a href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <script src="jquery/bootstrap.bundle.min.js"></script>
+  <script src="jquery/jquery-1.12.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="jquery/slick.min.js"></script>
+  <script src="jquery/script.js"></script>
+</body>
+
+</html>
